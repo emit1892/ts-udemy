@@ -41,3 +41,5 @@ class Person {
 
 let me: Animal;
 // me = new Person(43); // error Personクラスにnameを追加する必要がある
+
+// 構造的部分形
