@@ -9,6 +9,7 @@ type PartialProfile = Partial<Profile>;
 type PropertyTypes = keyof Profile; // 複数kyeがある場合一つづつ取り出しできる
 
 type Optional<T> = {
+    // map
     [P in keyof T]?: T[P] | null
 }
 
